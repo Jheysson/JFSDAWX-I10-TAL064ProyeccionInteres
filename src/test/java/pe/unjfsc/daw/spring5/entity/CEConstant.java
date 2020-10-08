@@ -9,5 +9,5 @@ public class CEConstant {
 	//DIAS
 	public static final int diaOct = 31;
 	public static final int diaNov = 30;
-	public static final int diaDic = 31;
+	public static final int diaDic = 31; 
 }
