@@ -10,7 +10,6 @@ public class CEMeses {
 		
 	}
 	
-	
 	public CEMeses(int idMes, String nombreMes, int numeroDiasMes, int cantidadFeriado, double tasaInteres) {
 		super();
 		this.idMes = idMes;

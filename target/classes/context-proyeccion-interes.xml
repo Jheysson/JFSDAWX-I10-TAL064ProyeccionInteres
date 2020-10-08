@@ -5,7 +5,15 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="" class="pe.unjfsc.daw.spring5."></bean>
-	<bean id="" class="pe.unjfsc.daw.spring5."></bean>
-
+	
+	<bean id="idCESaldoAfiliado" class="pe.unjfsc.daw.spring5.entity.CESaldoAfiliado"></bean>
+	<bean id="idCEMeses" class="pe.unjfsc.daw.spring5.entity.CEMeses"></bean>
+	<bean id="idCEProyeccion" class="pe.unjfsc.daw.spring5.entity.CEProyeccion"></bean>
+	 <!-- <bean id="idCEUnionListas" class="pe.unjfsc.daw.spring5.entity.CEUnionListas"></bean> -->
+	 <bean id="idCEFormula" class="pe.unjfsc.daw.spring5.entity.CEFormula"></bean>
+	<bean id="idLoadData" class="pe.unjfsc.daw.spring5.model.CDLoadData"></bean>
+	
+	<bean id="idCEUInteres" class="pe.unjfsc.daw.spring5.utility.CUInteres">
+		<property name="oCEResult" ref="idCEFormula"></property>
+	</bean>
 </beans>
