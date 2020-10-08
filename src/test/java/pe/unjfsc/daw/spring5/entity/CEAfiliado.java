@@ -4,6 +4,7 @@ public class CEAfiliado {
 	private int codiAfil;
 	private String afiliado;
 	private double saldoAfil;
+	
 	public int getCodiAfil() {
 		return codiAfil;
 	}
